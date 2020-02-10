@@ -1,0 +1,28 @@
+//Font Family
+
+$raleway: 'Raleway', sans-serif;
+$opensans: 'Open Sans', sans-serif;
+
+// Tipography
+
+$regular: 400;
+$bold: 700; 
+
+// Font Sizes
+
+$xxxxx-large: 50px;
+$xxxx-large: 45px;
+$xxx-large: 40px;
+$xx-large: 35px;
+$x-large: 30px;
+$large: 20px;
+$medium: 16px;
+$small: 14px;
+$x-small: 12px;
+
+// Titles
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $raleway;
+}
+
