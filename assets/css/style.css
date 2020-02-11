@@ -355,18 +355,33 @@ nav li a:hover {
   }
 }
 .header {
-  background-image: url("/assets/img/bg-hero.png");
+  background-image: url("../img/bg-hero.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  height: 1000px;
-  padding-bottom: 5%;
+  background-size: cover;
+  background-position: bottom;
+  height: auto;
 }
 
 .header__text {
-  margin-top: 30%;
+  margin: 15%;
+  background-color: greenyellow;
 }
 
+@media (min-width: 768px) {
+  .header {
+    background-image: url("../img/bg-hero.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 1000px;
+    padding-bottom: 5%;
+  }
+
+  .header__text {
+    padding: 30% 0%;
+    background-color: purple;
+  }
+}
 footer {
   background-color: #221D23;
   color: #ffffff;
@@ -389,15 +404,23 @@ footer {
 }
 
 .precios {
-  background-image: url("/assets/img/bg-price.png");
+  background-image: url("../img/bg-price.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  height: auto;
-  padding-bottom: 5%;
-  background-color: #333645;
+  background-size: cover;
+  background-position: top;
+  background-color: palevioletred;
+  margin-top: 500px;
 }
 
+@media (min-width: 768px) {
+  .precios {
+    height: auto;
+    background-size: 100%;
+    padding-bottom: 5%;
+    padding-top: 29%;
+    background-color: #F4BAAE;
+  }
+}
 .card {
   background-color: #FFFFFF;
   width: 280px;
@@ -405,7 +428,8 @@ footer {
   margin: auto;
   text-align: center;
   border: 1px solid #726F73;
-  padding: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
 .title {
@@ -414,9 +438,11 @@ footer {
 }
 
 .card__ul {
-  border-top: 1px solid #333745;
-  border-bottom: 1px solid #333745;
-  padding: 20px 0px;
+  border-top: 1px solid #8F9199;
+  border-bottom: 1px solid #8F9199;
+  padding: 20px 30px;
+  text-align: left;
+  height: 40%;
 }
 
 button {
@@ -427,7 +453,7 @@ button {
   color: white;
   background-color: #2AB7CA;
   text-align: center;
-  width: 80%;
+  width: 100%;
   font-size: 18px;
 }
 
@@ -438,7 +464,7 @@ a {
 }
 
 button:hover, a:hover {
-  opacity: 0.7;
+  background-color: #77D1DD;
 }
 
 /*# sourceMappingURL=style.css.map */

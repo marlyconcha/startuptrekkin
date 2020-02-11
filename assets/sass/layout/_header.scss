@@ -1,12 +1,30 @@
 .header {
-    background-image: url('/assets/img/bg-hero.png');
+    background-image: url('../img/bg-hero.svg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    height: 1000px;
-    padding-bottom: 5%;
+    background-size: cover;
+    background-position: bottom;
+    height: auto;
 }
 
 .header__text {
-    margin-top: 30%;
+    margin: 15%;
+    background-color: greenyellow;
+}
+
+@media (min-width: 768px) {
+
+    .header {
+        background-image: url('../img/bg-hero.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 1000px;
+        padding-bottom: 5%;
+    }
+
+    .header__text {
+        padding: 30% 0%;
+        background-color: purple;
+    }
+
 }
