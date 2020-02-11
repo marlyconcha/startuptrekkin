@@ -13,9 +13,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  height: auto;
-  width: 90%;
-  background-color: red;
+  height: 500px;
+  width: 100%;
 }
 
 .row {
@@ -329,7 +328,8 @@ h1, h2, h3, h4, h5, h6 {
 footer {
   background-color: #000000;
   color: #ffffff;
-  height: 200px;
+  height: 150px;
+  padding: 0% 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -342,9 +342,19 @@ footer {
   box-sizing: border-box;
   text-align: center;
   font-size: medium;
+  margin: 0px 15px;
+}
+
+.precios {
+  background-image: url("/assets/img/bg-price.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 700px;
 }
 
 .card {
+  background-color: white;
   max-width: 300px;
   margin: auto;
   text-align: center;

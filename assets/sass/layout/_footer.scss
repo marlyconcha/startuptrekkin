@@ -1,7 +1,8 @@
 footer {
     background-color: #000000;
     color: #ffffff;
-    height: 200px;
+    height: 150px;
+    padding: 0% 10%;
 
     display: flex;
     justify-content: space-between;
@@ -15,4 +16,5 @@ footer {
     box-sizing: border-box;
     text-align: center;
     font-size: medium;
+    margin: 0px 15px;
 }
