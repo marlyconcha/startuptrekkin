@@ -327,21 +327,25 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 footer {
-  background-color: #000000;
+  background-color: pink;
   color: #ffffff;
-  height: 200px;
+  height: 100px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .footer__item {
-  background-color: #ffffff;
+  background-color: blue;
   box-sizing: border-box;
   text-align: center;
   font-size: medium;
+}
+.footer__item-brand {
+  background-color: purple;
+  align-items: flex-end;
 }
 
 .card {
@@ -378,4 +382,4 @@ button:hover, a:hover {
   opacity: 0.7;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.csss.map */

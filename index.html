@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,44 +10,65 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <nav id="luxbar" class="luxbar-fixed">
-        <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
-        <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
+        <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
+        <div class="luxbar-menu luxbar-menu-right luxbar-menu-left luxbar-menu-light">
             <ul class="luxbar-navigation">
                 <li class="luxbar-header">
                     <a href="#" class="luxbar-brand"><img src="/assets/img/Logo.svg"></a>
-                    <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
-                    id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+                    <label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger"
+                        for="luxbar-checkbox"> <span></span> </label>
                 </li>
                 <li class="luxbar-item"><a href="#">Acerca de</a></li>
-    
+
                 <li class="luxbar-item"><a href="#">Carácteristicas</a></li>
-    
+
                 <li class="luxbar-item"><a href="#">Precios</a></li>
-    
+
                 <li class="luxbar-item"><a href="#">Iniciar Sesión</a></li>
+
+                <li class="luxbar-item" style="float:left"><a href="#">Registrate</a></li>
             </ul>
         </div>
     </nav>
 
     <header>
         <h1>Haz Trekking sin parar</h1>
-        <p>Con Trekk-in te despreocuparñas de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedición.</p>
+        <p>Con Trekk-in te despreocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la
+            mejor ruta a tomar con tus compañeros de expedición.</p>
     </header>
 
     <div>SGV</div>
 
-    <section>
-        <h2>Carácteristicas</h2>
-        <h3>Estadísticas de tu progreso</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    </section>
-    <section>
-        <h2>Precios</h2>
+    <section class="contenedor row">
 
-        <div class="card">
+        <div class="col-12">
+            <h2>Carácteristicas</h2>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <img src="/assets/img/bar-graph.svg">
+        </div>
+
+        <div class="col-12 col-md-6">
+            <h3>Estadísticas de tu progreso</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.</p>
+        </div>
+    </section>
+
+    <section class="precios contenedor row">
+
+        <div class="col-12">
+            <h2>Precios</h2>
+        </div>
+
+        <div class="card col-12 col-md-6">
             <h3>Trekk-In Free</h3>
             <h2>$0 / mes</h2>
             <ul>
@@ -54,10 +76,27 @@
                 <li>Concretar con otros usuarios</li>
             </ul>
             <p><button>Obten Free</button></p>
-          </div>
+        </div>
 
+        <div class="card col-12 col-md-6">
+            <h3>Trekk-In Free</h3>
+            <h2>$0 / mes</h2>
+            <ul>
+                <li>Ver mapas creados por usuarios</li>
+                <li>Concretar con otros usuarios</li>
+            </ul>
+            <p><button>Obten Free</button></p>
+        </div>
     </section>
-    <footer></footer>
-    
+
+    <footer class="footer">
+        <div>
+        <a class="footer__item">Legal</a>
+        <a class="footer__item">Cookies</a>
+        <a class="footer__item">Sobre anuncios</a>
+        </div>
+        <a class="footer__item">© 2018 Trekk-in SPA.</a>
+    </footer>
 </body>
+
 </html>
