@@ -1,9 +1,8 @@
 footer {
-    background-color: #000000;
+    background-color: $raisinblack;
     color: #ffffff;
     height: 150px;
     padding: 0% 10%;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,7 +11,8 @@ footer {
 }
 
 .footer__item {
-    background-color: #ffffff;
+    color: $lavendergray;
+    text-decoration: none;
     box-sizing: border-box;
     text-align: center;
     font-size: medium;

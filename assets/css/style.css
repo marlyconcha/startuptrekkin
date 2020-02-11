@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  height: 500px;
+  height: auto;
   width: 100%;
 }
 
@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 footer {
-  background-color: #000000;
+  background-color: #221D23;
   color: #ffffff;
   height: 150px;
   padding: 0% 10%;
@@ -338,7 +338,8 @@ footer {
 }
 
 .footer__item {
-  background-color: #ffffff;
+  color: #C7C8CC;
+  text-decoration: none;
   box-sizing: border-box;
   text-align: center;
   font-size: medium;
@@ -350,7 +351,7 @@ footer {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  height: 700px;
+  height: 400px;
 }
 
 .card {
