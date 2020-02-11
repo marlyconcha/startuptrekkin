@@ -1,29 +1,28 @@
 .my__nav {
-    background-color: $white!important;
-    color: $raisinblack!important;
-    height: 100px;
+  background-color: $white !important;
+  color: $raisinblack !important;
+  height: 100px;
 }
 
-  nav li {
-    display: inline-block;
-    text-decoration: none;
+nav li {
+  display: inline-block;
+  text-decoration: none;
 }
 
-  nav li a {
-    color: $white;
-    text-decoration: none;
-    font-size: 0.9rem;
+nav li a {
+  color: $white;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
 
-  nav li a:hover {
-    background-color: $ballblue;
+nav li a:hover {
+  background-color: $ballblue;
 }
 
 .nav__button {
-    background-color: $ballblue;
-
-}  
+  background-color: $ballblue;
+}
 
 .luxbar-items {
-    text-align: left;
+  text-align: left;
 }

@@ -1,4 +1,4 @@
-.header {
+.header__img {
     background-image: url('../img/bg-hero.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,7 @@
 
 @media (min-width: 768px) {
 
-    .header {
+    .header__img {
         background-image: url('../img/bg-hero.svg');
         background-repeat: no-repeat;
         background-size: 100%;
@@ -23,8 +23,21 @@
     }
 
     .header__text {
-        padding: 30% 0%;
         background-color: purple;
+        width: 100%;
+        margin-top: 40%;
+
+        .h1 {
+            font-size: x-large;
+            background-color: indigo;
+        }
+
+        .p {
+            font-size: large;
+            background-color: indigo;
+        }
     }
+
+
 
 }

@@ -37,6 +37,19 @@ nav li a:hover {
   text-align: left;
 }
 
+.animation-element {
+  opacity: 0;
+  transition: all 500ms linear;
+  transform: translate3d(0px, 20px, 0px);
+  transition-delay: 0.5s;
+  position: relative;
+}
+
+.animation-element.in-view {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
 .contenedor {
   margin-left: auto;
   margin-right: auto;
@@ -354,7 +367,7 @@ nav li a:hover {
     grid-column: span 1;
   }
 }
-.header {
+.header__img {
   background-image: url("../img/bg-hero.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -368,7 +381,7 @@ nav li a:hover {
 }
 
 @media (min-width: 768px) {
-  .header {
+  .header__img {
     background-image: url("../img/bg-hero.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -378,8 +391,17 @@ nav li a:hover {
   }
 
   .header__text {
-    padding: 30% 0%;
     background-color: purple;
+    width: 100%;
+    margin-top: 40%;
+  }
+  .header__text .h1 {
+    font-size: x-large;
+    background-color: indigo;
+  }
+  .header__text .p {
+    font-size: large;
+    background-color: indigo;
   }
 }
 footer {
