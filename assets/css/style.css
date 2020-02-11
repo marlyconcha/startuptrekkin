@@ -8,6 +8,35 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.my__nav {
+  background-color: #FFFFFF !important;
+  color: #221D23 !important;
+  height: 100px;
+}
+
+nav li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+nav li a:hover {
+  background-color: #2AB7CA;
+}
+
+.nav__button {
+  background-color: #2AB7CA;
+}
+
+.luxbar-items {
+  text-align: left;
+}
+
 .contenedor {
   margin-left: auto;
   margin-right: auto;
@@ -325,6 +354,19 @@ h1, h2, h3, h4, h5, h6 {
     grid-column: span 1;
   }
 }
+.header {
+  background-image: url("/assets/img/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 1000px;
+  padding-bottom: 5%;
+}
+
+.header__text {
+  margin-top: 30%;
+}
+
 footer {
   background-color: #221D23;
   color: #ffffff;
@@ -351,7 +393,9 @@ footer {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  height: 400px;
+  height: auto;
+  padding-bottom: 5%;
+  background-color: #333645;
 }
 
 .card {

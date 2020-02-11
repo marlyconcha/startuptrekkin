@@ -12,10 +12,9 @@
 </head>
 
 <body>
-
-    <nav id="luxbar" class="luxbar-fixed">
-        <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
-        <div class="luxbar-menu luxbar-menu-right luxbar-menu-left luxbar-menu-light">
+    <nav id="luxbar" class="luxbar-static">
+        <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+        <div class="luxbar-menu luxbar-menu-right luxbar-menu-light my__nav">
             <ul class="luxbar-navigation">
                 <li class="luxbar-header">
                     <a href="#" class="luxbar-brand"><img src="/assets/img/Logo.svg"></a>
@@ -28,20 +27,21 @@
 
                 <li class="luxbar-item"><a href="#">Precios</a></li>
 
-                <li class="luxbar-item"><a href="#">Iniciar Sesión</a></li>
+                <li class="luxbar-item" style="float:right"><a href="#">Iniciar Sesión</a></li>
 
-                <li class="luxbar-item" style="float:left"><a href="#">Registrate</a></li>
+                <li class="luxbar-item nav__button" style="float:right"><a href="#">Registrate</a></li>
             </ul>
         </div>
     </nav>
 
-    <header>
-        <h1>Haz Trekking sin parar</h1>
-        <p>Con Trekk-in te despreocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la
-            mejor ruta a tomar con tus compañeros de expedición.</p>
+    <header class="header">
+        <div class="contenedor row">
+            <div class="header__text col-12 col-md-4">
+                <h1>Haz Trekking sin parar</h1>
+                <p>Con Trekk-in te despreocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedición.</p>
+            </div>
+        </div>
     </header>
-
-    <div>SGV</div>
 
     <section class="contenedor row">
 
