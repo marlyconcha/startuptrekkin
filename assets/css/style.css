@@ -399,16 +399,24 @@ footer {
 }
 
 .card {
-  background-color: white;
-  max-width: 300px;
+  background-color: #FFFFFF;
+  width: 280px;
+  height: 350px;
   margin: auto;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid #726F73;
+  padding: 10px;
 }
 
 .title {
-  color: grey;
+  color: #221D23;
   font-size: 18px;
+}
+
+.card__ul {
+  border-top: 1px solid #333745;
+  border-bottom: 1px solid #333745;
+  padding: 20px 0px;
 }
 
 button {
@@ -417,9 +425,9 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #2AB7CA;
   text-align: center;
-  width: 100%;
+  width: 80%;
   font-size: 18px;
 }
 
