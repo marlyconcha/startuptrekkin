@@ -8,7 +8,6 @@
 
 .header__text {
     margin: 15%;
-    background-color: greenyellow;
 }
 
 @media (min-width: 768px) {
@@ -16,25 +15,24 @@
     .header__img {
         background-image: url('../img/bg-hero.svg');
         background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center;
+        background-size: cover;
+        background-position: top;
+        position: relative;
         height: 1000px;
-        padding-bottom: 5%;
+        margin-top: 2%;
     }
 
     .header__text {
-        background-color: purple;
-        width: 100%;
-        margin-top: 40%;
+        width: 30%;
+        margin-top: 10%;
+        position: absolute;
 
         .h1 {
             font-size: x-large;
-            background-color: indigo;
         }
 
         .p {
-            font-size: large;
-            background-color: indigo;
+            font-size: large; 
         }
     }
 
