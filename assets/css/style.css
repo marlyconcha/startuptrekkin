@@ -50,6 +50,10 @@ nav li a:hover {
   transform: translate3d(0px, 0px, 0px);
 }
 
+.main__caracteristicas {
+  text-align: center;
+}
+
 .contenedor {
   margin-left: auto;
   margin-right: auto;
