@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .topnav {
   overflow: hidden;
-  background-color: #333745;
+  background-color: #FFFFFF;
   margin: 20px 50px;
 }
 
@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .topnav__right {
   font-weight: 700;
+  text-align: right;
 }
 
 @media screen and (max-width: 576px) {
@@ -74,6 +75,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     width: 100%;
     margin-left: 0;
+  }
+
+  .topnav__right {
+    font-weight: 700;
+    text-align: right;
   }
 }
 .animation-element {
