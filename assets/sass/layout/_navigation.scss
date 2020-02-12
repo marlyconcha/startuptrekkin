@@ -61,6 +61,12 @@
     margin-left: 0;
   }
 
+  .topnav a:hover {
+    background-color: $middleblue;
+    color: $white;
+    font-weight: 700;
+  }
+  
   .topnav__right {
     visibility:hidden;
   }
