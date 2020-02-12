@@ -10,7 +10,8 @@
     &__title {
         color: $white;
         text-align: center;
-        font-size: xx-large;
+        font-size: x-large;
+        color: red;
     }
 }
 
@@ -23,6 +24,12 @@
         padding-bottom: 5%;
         padding-top: 10%;
         //background-color: #333645;//
+
+        &__title {
+            color: $white;
+            text-align: center;
+            font-size: xx-large;
+        }
     }
 
 }

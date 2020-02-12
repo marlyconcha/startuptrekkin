@@ -15,7 +15,7 @@
 
 .main__title {
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .main__img {
@@ -25,5 +25,20 @@
 
 .main__text {
     text-align: left;
-    padding: 30px;
+    padding: 0px 30px;
+    line-height: 30px;
+    font-size: $medium;
+
+    h3 {
+        font-weight: 700;
+        font-size: $x-large;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .main__title {
+        font-size: xx-large;
+    }
 }

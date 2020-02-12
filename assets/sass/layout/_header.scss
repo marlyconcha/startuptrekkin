@@ -9,7 +9,15 @@
 
 .header__text {
     margin-top: 80px;
-    padding: 20px;
+    padding: 30px;
+
+    h1 {
+        font-weight: 700;
+    }
+
+    p {
+        line-height: 30px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -26,19 +34,14 @@
 
     .header__text {
         width: 500px;
-        padding: 20px;
+        padding: 30px;
         margin: 0px 100px; 
         position: absolute;
         text-align: justify;
         font-size: $x-large;
 
-        h1 {
-            font-weight: 700;
-        }
-
         p {
             font-size: $large;
-            line-height: 30px;
         }
     }
 

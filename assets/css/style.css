@@ -66,7 +66,7 @@ ul.topnav li {
 
 .main__title {
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .main__img {
@@ -76,9 +76,20 @@ ul.topnav li {
 
 .main__text {
   text-align: left;
-  padding: 30px;
+  padding: 0px 30px;
+  line-height: 30px;
+  font-size: 16px;
+}
+.main__text h3 {
+  font-weight: 700;
+  font-size: 30px;
 }
 
+@media (min-width: 768px) {
+  .main__title {
+    font-size: xx-large;
+  }
+}
 .contenedor {
   margin-left: auto;
   margin-right: auto;
@@ -407,7 +418,13 @@ ul.topnav li {
 
 .header__text {
   margin-top: 80px;
-  padding: 20px;
+  padding: 30px;
+}
+.header__text h1 {
+  font-weight: 700;
+}
+.header__text p {
+  line-height: 30px;
 }
 
 @media (min-width: 768px) {
@@ -423,18 +440,14 @@ ul.topnav li {
 
   .header__text {
     width: 500px;
-    padding: 20px;
+    padding: 30px;
     margin: 0px 100px;
     position: absolute;
     text-align: justify;
     font-size: 30px;
   }
-  .header__text h1 {
-    font-weight: 700;
-  }
   .header__text p {
     font-size: 20px;
-    line-height: 30px;
   }
 }
 footer {
@@ -469,7 +482,8 @@ footer {
 .precios__title {
   color: #FFFFFF;
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
+  color: red;
 }
 
 @media (min-width: 768px) {
@@ -478,6 +492,11 @@ footer {
     background-size: 100%;
     padding-bottom: 5%;
     padding-top: 10%;
+  }
+  .precios__title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: xx-large;
   }
 }
 .card {
