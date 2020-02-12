@@ -6,25 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/js/script.js">
     <title>Trekk-in</title>
 </head>
 
 <body>
 
     <!-- NAVBAR -->
-    <nav>
-        <ul class="topnav">
-            <li><img src="assets/img/Logo.svg"></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Carácteristicas</a></li>
-            <li><a href="#">Precios</a></li>
-            <li class="right"><a href="#" class="active">Registrate</a></li>
-            <li class="right"><a href="#">Iniciar Sesión</a></li>
-        </ul>
-    </nav>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <!-- FIN NAVBAR -->
 
     <!-- HEADER -->
@@ -128,6 +126,9 @@
         </script>
 
     <script src="assets/js/animate.js">
+    </script>
+
+    <script src="assets/js/script.js">
     </script>
 </body>
 
