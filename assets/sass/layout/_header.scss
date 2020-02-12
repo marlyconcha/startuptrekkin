@@ -21,17 +21,24 @@
         background-position: top;
         position: relative;
         height: 1000px;
-        margin-top: 2%;
+        margin-top: 1%;
     }
 
-    header {
+    .header__text {
+        width: 500px;
+        padding: 20px;
+        margin: 0px 100px; 
+        position: absolute;
+        text-align: justify;
+        font-size: $x-large;
 
-        .h1 {
-            font-size: $x-large;
+        h1 {
+            font-weight: 700;
         }
 
-        .p {
-            font-size: $large; 
+        p {
+            font-size: $large;
+            line-height: 30px;
         }
     }
 

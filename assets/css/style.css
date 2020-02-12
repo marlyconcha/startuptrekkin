@@ -39,7 +39,6 @@ ul.topnav li a.active {
   background-color: #2AB7CA;
   color: #FFFFFF;
   font-weight: 400;
-  font-size: large;
 }
 
 ul.topnav li.right {
@@ -65,8 +64,19 @@ ul.topnav li {
   transform: translate3d(0px, 0px, 0px);
 }
 
-.main__caracteristicas {
+.main__title {
   text-align: center;
+  font-size: xx-large;
+}
+
+.main__img {
+  text-align: center;
+  padding: 30px;
+}
+
+.main__text {
+  text-align: left;
+  padding: 30px;
 }
 
 .contenedor {
@@ -408,14 +418,23 @@ ul.topnav li {
     background-position: top;
     position: relative;
     height: 1000px;
-    margin-top: 2%;
+    margin-top: 1%;
   }
 
-  header .h1 {
+  .header__text {
+    width: 500px;
+    padding: 20px;
+    margin: 0px 100px;
+    position: absolute;
+    text-align: justify;
     font-size: 30px;
   }
-  header .p {
+  .header__text h1 {
+    font-weight: 700;
+  }
+  .header__text p {
     font-size: 20px;
+    line-height: 30px;
   }
 }
 footer {
@@ -444,7 +463,13 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  margin-top: 500px;
+  margin-top: 10px;
+  padding: 0px 0px 300px 0px;
+}
+.precios__title {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: xx-large;
 }
 
 @media (min-width: 768px) {
@@ -452,18 +477,25 @@ footer {
     height: auto;
     background-size: 100%;
     padding-bottom: 5%;
-    padding-top: 29%;
+    padding-top: 10%;
   }
 }
 .card {
   background-color: #FFFFFF;
   width: 280px;
-  height: 350px;
+  height: 400px;
   margin: auto;
-  text-align: center;
+  text-align: left;
   border: 1px solid #726F73;
   padding: 20px;
   margin-bottom: 30px;
+}
+.card h3 {
+  font-size: 30px;
+}
+.card h2 {
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .title {
@@ -474,7 +506,7 @@ footer {
 .card__ul {
   border-top: 1px solid #8F9199;
   border-bottom: 1px solid #8F9199;
-  padding: 20px 30px;
+  padding: 7px 30px;
   text-align: left;
   height: 40%;
 }

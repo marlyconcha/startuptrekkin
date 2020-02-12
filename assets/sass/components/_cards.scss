@@ -1,12 +1,22 @@
 .card {
     background-color: $white;
     width: 280px;
-    height: 350px;
+    height: 400px;
     margin: auto;
-    text-align: center;
+    text-align: left;
     border: 1px solid $nickel;
     padding: 20px;
     margin-bottom: 30px;
+
+    h3 {
+      font-size: $x-large;
+    }
+
+    h2 {
+      font-size: $xxx-large;
+      font-weight: 700;
+    }
+
   }
   
   .title {
@@ -17,7 +27,7 @@
   .card__ul {
     border-top: 1px solid $spanishgray;
     border-bottom: 1px solid $spanishgray;
-    padding: 20px 30px;
+    padding: 7px 30px;
     text-align: left;
     height: 40%;
   }
