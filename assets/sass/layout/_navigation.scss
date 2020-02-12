@@ -1,27 +1,40 @@
-.my__nav {
-  background-color: $white !important;
-  color: $raisinblack !important;
+ul.topnav {
+  list-style-type: none;
+  margin: 20px 50px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: $white;
 }
 
-nav li {
-  display: inline-block;
+ul.topnav li {
+  float: left;
+  margin-left: 20px;
+}
+
+ul.topnav li a {
+  display: block;
+  color: $raisinblack;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: medium;
 }
 
-nav li a {
+ul.topnav li a:hover:not(.active) {
+  background-color: $middleblue;
   color: $white;
-  text-decoration: none;
-  font-size: 0.9rem;
 }
 
-nav li a:hover {
+ul.topnav li a.active {
   background-color: $ballblue;
+  color: $white;
+  font-weight: 400;
+  font-size: large;
 }
 
-.nav__button {
-  background-color: $ballblue;
-}
+ul.topnav li.right {float: right;}
 
-.luxbar-items {
-  text-align: left;
+@media screen and (max-width: 576px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
 }

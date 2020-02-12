@@ -8,34 +8,50 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.my__nav {
-  background-color: #FFFFFF !important;
-  color: #221D23 !important;
+ul.topnav {
+  list-style-type: none;
+  margin: 20px 50px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #FFFFFF;
 }
 
-nav li {
-  display: inline-block;
+ul.topnav li {
+  float: left;
+  margin-left: 20px;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #221D23;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: medium;
 }
 
-nav li a {
+ul.topnav li a:hover:not(.active) {
+  background-color: #77D1DD;
   color: #FFFFFF;
-  text-decoration: none;
-  font-size: 0.9rem;
 }
 
-nav li a:hover {
+ul.topnav li a.active {
   background-color: #2AB7CA;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: large;
 }
 
-.nav__button {
-  background-color: #2AB7CA;
+ul.topnav li.right {
+  float: right;
 }
 
-.luxbar-items {
-  text-align: left;
+@media screen and (max-width: 576px) {
+  ul.topnav li.right,
+ul.topnav li {
+    float: none;
+  }
 }
-
 .animation-element {
   opacity: 0;
   transition: all 500ms linear;
