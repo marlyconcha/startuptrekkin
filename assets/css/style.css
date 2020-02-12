@@ -49,13 +49,13 @@ ul.topnav li.right {float: right;}
 }*/
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #FFFFFF;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #221D23;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -63,13 +63,13 @@ ul.topnav li.right {float: right;}
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #2AB7CA;
+  color: #FFFFFF;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #2AB7CA;
+  color: #FFFFFF;
 }
 
 .topnav .icon {
@@ -557,6 +557,28 @@ footer {
     font-size: xx-large;
   }
 }
+.card__button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: #FFFFFF;
+  background-color: #2AB7CA;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+.card__button a {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.card__button button:hover, .card__button a:hover {
+  background-color: #77D1DD;
+}
+
 .card {
   background-color: #FFFFFF;
   width: 280px;
@@ -586,28 +608,6 @@ footer {
   padding: 7px 30px;
   text-align: left;
   height: 40%;
-}
-
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #2AB7CA;
-  text-align: center;
-  width: 100%;
-  font-size: 18px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
-button:hover, a:hover {
-  background-color: #77D1DD;
 }
 
 /*# sourceMappingURL=style.css.map */
