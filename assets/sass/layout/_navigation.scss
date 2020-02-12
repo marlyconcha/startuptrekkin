@@ -3,7 +3,7 @@ ul.topnav {
   margin: 20px 50px;
   padding: 10px;
   overflow: hidden;
-  background-color: $white;
+  background-color: $white; 
 }
 
 ul.topnav li {
@@ -36,4 +36,4 @@ ul.topnav li.right {float: right;}
 @media screen and (max-width: 576px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
-}
+} 
