@@ -452,7 +452,7 @@ ul.topnav li {
 }
 footer {
   background-color: #221D23;
-  color: #ffffff;
+  color: #FFFFFF;
   height: 150px;
   padding: 0% 10%;
   display: flex;
@@ -474,23 +474,29 @@ footer {
 .precios {
   background-image: url("../img/bg-price.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: top;
-  margin-top: 10px;
-  padding: 0px 0px 300px 0px;
+  margin-top: 30px;
 }
 .precios__title {
   color: #FFFFFF;
   text-align: center;
   font-size: x-large;
-  color: red;
+  margin-top: 100px;
+  color: #FFFFFF;
+}
+
+.precios__bg {
+  background-color: #333645;
 }
 
 @media (min-width: 768px) {
   .precios {
+    background-image: url("../img/bg-price.svg");
+    background-repeat: no-repeat;
+    background-position: top;
     height: auto;
     background-size: 100%;
-    padding-bottom: 5%;
     padding-top: 10%;
   }
   .precios__title {
