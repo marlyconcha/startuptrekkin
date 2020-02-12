@@ -14,15 +14,17 @@
 <body>
 
     <!-- NAVBAR -->
-    <div class="topnav" id="myTopnav">
-        <a href="#" class="active">Home</a>
+    <nav class="topnav" id="myTopnav">
+        <a href="#"><img src="assets/img/Logo.svg" class="topnav__logo"></a>
         <a href="#acercade">Acerca de</a>
-        <a href="#">Características</a>
-        <a href="#">Precios</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#precios">Precios</a>        
+        <a href="#" style="float:right" class="active topnav__right">Regístrate</a>
+        <a href="#" style="float:right" class="topnav__right">Iniciar sesión</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
-    </div>
+    </nav>
     <!-- FIN NAVBAR -->
 
     <!-- HEADER -->
@@ -45,7 +47,7 @@
     <!-- FIN HEADER -->
 
     <!-- MAIN -->
-    <main class="contenedor row">
+    <main id="caracteristicas" class="contenedor row">
 
         <div class="main__title col-12">
             <h2>Carácteristicas</h2>
@@ -72,7 +74,7 @@
     <!-- FIN MAIN -->
 
     <!-- PRECIOS -->
-    <section class="precios">
+    <section id="precios" class="precios">
         <div class="row">
             <div class="precios__title col-12">
                 <h2>Precios</h2>
