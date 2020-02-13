@@ -553,7 +553,7 @@ footer {
 .card {
   background-color: #FFFFFF;
   width: 280px;
-  height: 400px;
+  height: 420px;
   margin: auto;
   text-align: left;
   border: 1px solid #726F73;
@@ -564,7 +564,7 @@ footer {
   font-size: 30px;
 }
 .card h2 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
 }
 
@@ -583,6 +583,7 @@ footer {
 
 .card__button {
   border: none;
+  outline: 0;
   display: inline-block;
   padding: 8px;
   color: #FFFFFF;
@@ -592,7 +593,7 @@ footer {
   font-size: 18px;
 }
 
-a {
+.card__button_a {
   text-decoration: none;
   font-size: 16px;
   color: #FFFFFF;
@@ -600,7 +601,6 @@ a {
 }
 
 button:hover, a:hover {
-  color: #FFFFFF;
   background-color: #77D1DD;
 }
 
