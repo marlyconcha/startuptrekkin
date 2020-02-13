@@ -550,6 +550,29 @@ footer {
     font-size: xx-large;
   }
 }
+.card__button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: #FFFFFF;
+  background-color: #2AB7CA;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card__button_a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.card__button:hover, .card__button_a:hover {
+  background-color: #77D1DD;
+}
+
 .card {
   background-color: #FFFFFF;
   width: 280px;
@@ -579,29 +602,6 @@ footer {
   padding: 7px 30px;
   text-align: left;
   height: 40%;
-}
-
-.card__button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: #FFFFFF;
-  background-color: #2AB7CA;
-  text-align: center;
-  width: 100%;
-  font-size: 18px;
-}
-
-.card__button_a {
-  text-decoration: none;
-  font-size: 16px;
-  color: #FFFFFF;
-  font-weight: 700;
-}
-
-button:hover, a:hover {
-  background-color: #77D1DD;
 }
 
 /*# sourceMappingURL=style.css.map */
